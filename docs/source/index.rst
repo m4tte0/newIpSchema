@@ -39,3 +39,4 @@ Contents
 .. toctree::
 
    usage
+   ips_schema
