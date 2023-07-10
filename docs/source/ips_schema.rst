@@ -2,7 +2,7 @@
 A New IPs Schema Proposal
 =========================
 
-**Author**: mathon <_ mhonfucci at sica-italy.com _>
+**Author**: mathon < mhonfucci (at) sica-italy (dot) com >
 
 **Status**: Draft
 

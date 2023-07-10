@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Lumache'
+project = 'SICA SW DOC'
 copyright = '2023, ACME Corp.'
 author = 'mathon'
 release = '0.1'
