@@ -19,17 +19,26 @@
    * :ref:`modindex`
    * :ref:`search`
 
-Welcome to Lumache's documentation!
-===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers that
-creates recipes mixing random ingredients.  It pulls data from the `Open Food
-Facts database <https://world.openfoodfacts.org/>`_ and offers a *simple* and
-*intuitive* API.
+.. include:: <isonum.txt>
+.. |pirate| unicode:: U+1F3F4
+
+
+Welcome to the SICA SW Team Documentation Portal!
+=================================================
+
+**SICA** (/s\ **i:**\ ca/) **SW Team** is a small group of software developpers
+working in the field of the Automation Industry with focus on technologies for
+the *Plastic and Rubber* machineries.
+
+This place is yet another attempt to organically collect the whole set of
+technical notes and official bulletins written on a weekly basis by its member.
+
 
 .. note::
 
-   This project is under active development.
+   | This project is under active development!
+   | |pirate| *Be Ye Warned!*  |pirate|
 
 
 
@@ -40,3 +49,4 @@ Contents
 
    usage
    ips_schema
+   nat_secomea
