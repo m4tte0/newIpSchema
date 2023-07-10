@@ -46,7 +46,8 @@ Now let's focus on the third octet only: the *largest integer* multiple of 20
 but lower than 253 is **240**, yielding *12 comeplete lines* of machines which
 can be mapped fully with the scheme below:
 
-		169.254.<20(L-1) + M>.0/24
+.. important:
+	169.254.<**20(L-1) + M**>.0/24
 
 
 Use Cases
