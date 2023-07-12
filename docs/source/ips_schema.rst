@@ -2,13 +2,10 @@
 A New IPs Schema Proposal
 =========================
 
-**Author**: mathon < mhonfucci (at) sica-italy (dot) com >
-
-**Status**: Draft
-
-**Type**: Process
-
-**Created**: 09-Jun-2023
+| **Author**: mathon <mhonfucci (at) sica-italy (dot) com>
+| **Status**: Draft
+| **Type**: Process
+| **Created**: 09-Jun-2023
 
 
 Abstract
