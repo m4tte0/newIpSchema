@@ -4,7 +4,7 @@ KB131.10 — A New IPs Schema Proposal
 
 | **Author**: mathon <mhonfucci (at) sica-italy (dot) com>
 | **Status**: Draft
-| **Type**: Process
+| **Type**: Networking (IT/OT)
 | **Created**: 09-Jun-2023
 
 
