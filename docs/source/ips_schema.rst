@@ -1,6 +1,6 @@
-
-A New IPs Schema Proposal
-=========================
+====================================
+KB131.10 — A New IPs Schema Proposal
+====================================
 
 | **Author**: mathon <mhonfucci (at) sica-italy (dot) com>
 | **Status**: Draft
@@ -9,26 +9,27 @@ A New IPs Schema Proposal
 
 
 Abstract
---------
+========
 
-**Forward**: the present file aims to highlight a common rule to yield all the
-available IPs needed to configure the whole set of PLCs a multiline project is
+**Foreward**: the present file aims to highlight a common rule to yield all the
+available IPs needed to configure the whole set of PLCs a *multiline* project is
 consisting of.
 
+----
 
 The IPs Rule
-------------
+============
 
 Given the current standard machine reference number, i.e.:
 
-		c/yy.nnnn/0L/0M/01/01
+	| c/yy.nnnn/0L/0M/01/01
 
-and the choice to keep using _linklocal_ addresses to address all its fieldbus
+and the choice to keep using *linklocal* addresses to address all its fieldbus
 devices, that is from the block **169.254.0.0/16** - which can be expanded as
 follows:
 
-		from: 169.254.0.1
-		  to: 169.254.255.255
+	| from: 169.254.  0.1
+	| to: 169.254.255.255
 
 we shall preserve the last octet, which refers to the *machine backbone* (each).
 
@@ -44,22 +45,26 @@ but lower than 253 is **240**, yielding *12 comeplete lines* of machines which
 can be mapped fully with the scheme below:
 
 .. important::
-	169.254.<**20(L-1) + M**>.0/24
+	169.254.<**20 (L-1) + M**>.0/24
 
 
 Use Cases
-^^^^^^^^^
+---------
 
-So, for instance, *all machines* of the first line - /01/0M - would then be
-assigned to the following block of addresses:
+So, for instance, all the *M machines* of the first line — that is /01/M — would
+then be assigned to the following block of *network* addresses:
 
-	- 169.254.  1.0/24	:: /01/01
-	- 169.254.  2.0/24	:: /01/02
-	- 169.254.  3.0/24	:: /01/03
-	- 			..
-	- 169.254. 20.0/24	:: /01/20
+::
 
-and so on for the second one - that is /02/0M:
+	- 169.254.  1.0/24	:: /01/01 << 1st machine
+	- 169.254.  2.0/24	:: /01/02 << 2nd machine
+	- 169.254.  3.0/24	:: /01/03 << 3rd machine
+	-                  \..
+	- 169.254.  M.0/24	:: /01/M  << M–th machine
+	-                  \..
+	- 169.254. 20.0/24	:: /01/20 << 20–th machine
+
+and so on for the second one - that is /02/M:
 
 	- 169.254. 21.0/24	:: /02/01
 	- 169.254. 22.0/24	:: /02/02

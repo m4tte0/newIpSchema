@@ -1,19 +1,6 @@
-Usage
-=====
-
-Installation
-------------
-
-To use Lumache, first install it using pip:
-
-.. code-block:: console
-
-   (.venv) $ pip install lumache
-
-----
-
+=======================
 Naming and Nomenclature
------------------------
+=======================
 
 | KB :: knowledgebase
 | TN :: technical note
@@ -30,3 +17,13 @@ Naming and Nomenclature
        \
         \_ TYPE : 1 = GEN | 2 = MAC | 3 = NSW
 
+
+----
+
+Table of Contents
+=================
+
+Here below current list of all the Technical Literature written so far — that is as of July 13th 2023:
+
+- KB131.10
+- KB131.20
