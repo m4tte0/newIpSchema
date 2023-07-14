@@ -50,3 +50,4 @@ Contents
    usage
    ips_schema
    nat_secomea
+   cfg_motor_drive
