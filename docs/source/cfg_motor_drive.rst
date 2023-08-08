@@ -1,5 +1,5 @@
 ===========================================
-kb131.17 - Commutation Angle for BLDC Motor
+KB131.17 - Commutation Angle for BLDC Motor
 ===========================================
 
 | **Author**: mathon <mhonfucci (at) sica-italy (dot) com>
