@@ -1,5 +1,5 @@
 =============================================
-kb131.10 - NAT rule for the SECOMEA TS-module
+KB151.20 - NAT rule for the SECOMEA TS-module
 =============================================
 
 Questa procedura descrive i passaggi per scrivere le regole di Forwarding nel

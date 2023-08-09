@@ -1,5 +1,5 @@
 ====================================
-KB131.10 — A New IPs Schema Proposal
+KB151.10 — A New IPs Schema Proposal
 ====================================
 
 | **Author**: mathon <mhonfucci (at) sica-italy (dot) com>
