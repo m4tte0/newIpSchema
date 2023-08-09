@@ -14,7 +14,7 @@ Naming and Nomenclature
       || \_ STATUS : 1 = DF | 2 = PP | 3 = AC | 4 = DPR | 5 = RJ | 6 = NV
       | \
       |  \_ TOPIC : 1 = SW | 2 = HW | 3 = DR | 4 = FD | 5 = NET | 6 = HMI
-	   \         | 7 = SPP
+       \         | 7 = SPP
         \
          \_ TYPE : 1 = GEN | 2 = MAC | 3 = NSW
 

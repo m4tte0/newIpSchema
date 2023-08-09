@@ -1,5 +1,5 @@
 ==================================================================
-TN211.43 - How to edit pars displayed by the LOGO! built-in screen
+TN271.43 - How to edit pars displayed by the LOGO! built-in screen
 ==================================================================
 
 | **Author**: lorerr <lerrani (at) sica-italy (dot) com>
