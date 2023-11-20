@@ -52,3 +52,4 @@ Contents
    nat_secomea
    cfg_motor_drive
    logo_hmi_par
+   machinery_reg_class
