@@ -1,3 +1,7 @@
+=================================================================
+PN292.10 - Personal Note upon the all-new EU Machinery Regulation
+=================================================================
+
 #### OBJECT: Upon the all-new Regolamento Macchine
 #### DATE: march 7th 2023
 #### AUTHOR: mathon
