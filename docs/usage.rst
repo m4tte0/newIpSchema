@@ -30,4 +30,3 @@ Here below current list of all the Technical Literature written so far — that 
 - KB 151.20
 - KB 131.17
 - TN 271.43
-- PN 292.10
