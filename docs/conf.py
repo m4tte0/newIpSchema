@@ -28,4 +28,4 @@ exclude_patterns = []
 
 html_theme = 'furo' #'alabaster'
 html_theme_path = ['_themes', ]
-html_static_path = ['_static']
+#html_static_path = ['_static']
